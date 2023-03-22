@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+body {
+  background-color: black;
+  font-family: "Barrio";
+}
+.banner2 {
+  max-width: 250px;
+}
+.banner {
+  width: 450px;
+}
+.manual {
+  color: white;
+  margin-top: 20px;
+  font-size: 25px;
+}

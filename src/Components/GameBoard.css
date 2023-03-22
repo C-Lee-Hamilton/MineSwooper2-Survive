@@ -1,0 +1,49 @@
+.gameboard {
+  display: inline-block;
+  flex-direction: column;
+}
+.scores {
+  margin-top: 50px;
+  color: white;
+  font-size: 20px;
+  border: 1px ridge rgb(245, 0, 0);
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.thebutton {
+  align-self: center;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: 5px ridge black;
+  cursor: pointer;
+}
+.popup {
+  width: 150%;
+  height: 100%;
+  margin-top: -100%;
+
+  position: relative;
+}
+.clickers {
+  color: black;
+  background-color: red;
+  width: 150px;
+  height: 50px;
+  font-size: 150%;
+  margin-top: 20px;
+  font-family: "Barrio";
+}
+.clickers:active {
+  transform: translateY(4px);
+  box-shadow: 4px 4px red;
+}
+.clickers:hover {
+  box-shadow: 4px 4px 4px red, -4px -4px 4px red, -4px 4px 4px red,
+    4px -4px 4px red;
+  cursor: pointer;
+}
