@@ -70,7 +70,7 @@ export const GameBoard = () => {
     setTrytoggle(false);
     setColor("black");
     setGame(true);
-
+    setSize(4);
     setBoard(
       Array.from({ length: 3 }, () => Array.from({ length: 3 }, () => ({})))
     );
